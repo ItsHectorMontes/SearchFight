@@ -1,0 +1,8 @@
+D:\Desarrollo\SearchFight\SearchFight.App.Core\bin\Debug\netcoreapp3.1\SearchFight.App.Core.deps.json
+D:\Desarrollo\SearchFight\SearchFight.App.Core\bin\Debug\netcoreapp3.1\SearchFight.App.Core.dll
+D:\Desarrollo\SearchFight\SearchFight.App.Core\bin\Debug\netcoreapp3.1\SearchFight.App.Core.pdb
+D:\Desarrollo\SearchFight\SearchFight.App.Core\obj\Debug\netcoreapp3.1\SearchFight.App.Core.AssemblyInfoInputs.cache
+D:\Desarrollo\SearchFight\SearchFight.App.Core\obj\Debug\netcoreapp3.1\SearchFight.App.Core.AssemblyInfo.cs
+D:\Desarrollo\SearchFight\SearchFight.App.Core\obj\Debug\netcoreapp3.1\SearchFight.App.Core.csproj.CoreCompileInputs.cache
+D:\Desarrollo\SearchFight\SearchFight.App.Core\obj\Debug\netcoreapp3.1\SearchFight.App.Core.dll
+D:\Desarrollo\SearchFight\SearchFight.App.Core\obj\Debug\netcoreapp3.1\SearchFight.App.Core.pdb
