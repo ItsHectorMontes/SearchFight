@@ -21,10 +21,11 @@ To determine the popularity of programming languages on the internet we want to 
 
 ## Building with
 
-- Google Search API
-- Bing Search API 
-- .Net Core 3.1 (C#)
-- XUnit for testing
+- Google Search API.
+- Bing Search API .
+- .Net 5 (C#).
+- XUnit for testing.
+- Docker.
 
 ## Principles 
 - SOLID
