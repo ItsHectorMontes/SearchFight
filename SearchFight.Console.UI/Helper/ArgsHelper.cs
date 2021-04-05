@@ -10,7 +10,7 @@ namespace SearchFight.Console.UI.Helper
     public static class ArgsHelper
     {
         /// <summary>
-        /// Get args including those inside quotes
+        /// Get args including those inside quotes.
         /// </summary>
         /// <param name="argsString"></param>
         /// <returns><see cref="List{T}"/></returns>

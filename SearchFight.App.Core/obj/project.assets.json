@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    "net5.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    "net5.0": []
   },
   "packageFolders": {
     "C:\\Users\\Hector Franz\\.nuget\\packages\\": {},
@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desarrollo\\SearchFight\\SearchFight.App.Core\\SearchFight.App.Core.csproj",
+      "projectUniqueName": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.App.Core.csproj",
       "projectName": "SearchFight.App.Core",
-      "projectPath": "D:\\Desarrollo\\SearchFight\\SearchFight.App.Core\\SearchFight.App.Core.csproj",
+      "projectPath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.App.Core.csproj",
       "packagesPath": "C:\\Users\\Hector Franz\\.nuget\\packages\\",
-      "outputPath": "D:\\Desarrollo\\SearchFight\\SearchFight.App.Core\\obj\\",
+      "outputPath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -28,15 +28,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -47,8 +47,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "imports": [
           "net461",
           "net462",
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

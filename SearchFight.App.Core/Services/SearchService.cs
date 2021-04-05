@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace SearchFight.App.Core.Services
 {
     /// <summary>
-    /// <see cref="ISearchService"/> implementation. Service to get search results
+    /// <see cref="ISearchService"/> implementation. Service to get search results.
     /// </summary>
     public class SearchService : ISearchService
     {

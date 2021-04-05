@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Diagnostics;
 using SearchFight.App.Core.Interfaces;
 using SearchFight.App.Core.Models;
 using SearchFight.Console.UI.Helper;
+
 
 namespace SearchFight.Console.UI
 {
@@ -26,7 +28,7 @@ namespace SearchFight.Console.UI
         public async Task RunAsync()
         {
             var args = Environment.CommandLine;
-            args = args.Substring(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName.Length);
+            args = args.Substring(Process.GetCurrentProcess().MainModule.FileName.Length);
             string stringArgs;
             var listArgs = new List<string>();
             if (args.Length == 0)
@@ -53,8 +55,7 @@ namespace SearchFight.Console.UI
             catch (Exception ex)
             {
                 System.Console.WriteLine(ex.Message);
-            }
-            
+            }            
 
         }
 

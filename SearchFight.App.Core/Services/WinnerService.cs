@@ -13,13 +13,13 @@ namespace SearchFight.App.Core.Services
     public class WinnerService : IWinnerService
     {
         /// <summary>
-        /// Get total search winner 
+        /// Get total search winner.
         /// </summary>
         /// <param name="searchData"></param>
         /// <returns></returns>
         public string GetTotalWinner(List<Search> searchData)
         {
-            if (searchData is null || searchData.Count() == 0)
+            if (searchData is null || searchData.Count == 0)
             {
                 throw new ArgumentException($"The object {nameof(searchData)} is null or empty.");
             }
@@ -31,13 +31,13 @@ namespace SearchFight.App.Core.Services
         }
 
         /// <summary>
-        /// Get winner by search engine
+        /// Get winner by search engine.
         /// </summary>
         /// <param name="searchData"></param>
         /// <returns>IEnumerable of <see cref="Search"/> objects</returns>
         public List<Search> GetWinnerBySearchEngine(List<Search> searchData)
         {
-            if (searchData is null || searchData.Count() == 0)
+            if (searchData is null || searchData.Count == 0)
             {
                 throw new ArgumentException($"The object {nameof(searchData)} is null or empty.");
             }

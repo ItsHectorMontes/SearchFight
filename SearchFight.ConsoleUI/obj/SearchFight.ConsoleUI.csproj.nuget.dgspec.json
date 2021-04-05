@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.ConsoleUI\\SearchFight.ConsoleUI.csproj": {}
+  },
+  "projects": {
+    "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.App.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.App.Core.csproj",
+        "projectName": "SearchFight.App.Core",
+        "projectPath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.App.Core.csproj",
+        "packagesPath": "C:\\Users\\Hector Franz\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hector Franz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.ConsoleUI\\SearchFight.ConsoleUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.ConsoleUI\\SearchFight.ConsoleUI.csproj",
+        "projectName": "SearchFight.ConsoleUI",
+        "projectPath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.ConsoleUI\\SearchFight.ConsoleUI.csproj",
+        "packagesPath": "C:\\Users\\Hector Franz\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.ConsoleUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hector Franz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.App.Core.csproj": {
+                "projectPath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.App.Core.csproj"
+              },
+              "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.Infraestructure\\SearchFight.Infraestructure.csproj": {
+                "projectPath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.Infraestructure\\SearchFight.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.Infraestructure\\SearchFight.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.Infraestructure\\SearchFight.Infraestructure.csproj",
+        "projectName": "SearchFight.Infraestructure",
+        "projectPath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.Infraestructure\\SearchFight.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\Hector Franz\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hector Franz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.App.Core.csproj": {
+                "projectPath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.App.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-﻿using SearchFight.Console.UI.Helper;
+﻿using SearchFight.ConsoleUI.Helper;
 using Xunit;
 
 namespace SearchFight.Tests

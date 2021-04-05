@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "SearchFight.ConsoleUI": {
+      "commandName": "Project",
+      "commandLineArgs": ".net java \"java script\""
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

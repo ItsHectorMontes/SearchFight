@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8yjEnqoMCWV/atrVBzPJ70ceALZBU03eIxE3SOiXATN24vmdBoea978lqdQjH91rsfE5mPE7rpk6fA6F3AEDIw==",
+  "dgSpecHash": "xzDxGQX61bgP81epHmxkDHp45BXxuHA4lYAs8PqvG9P5ED0iIVgZZsF/Ntn/BOZn+yid+BqsMXjAHHW1Qo3bGw==",
   "success": true,
-  "projectFilePath": "D:\\Desarrollo\\SearchFight\\SearchFight.Infraestructure\\SearchFight.Infraestructure.csproj",
+  "projectFilePath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.Infraestructure\\SearchFight.Infraestructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Hector Franz\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
-    "C:\\Users\\Hector Franz\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
-    "C:\\Users\\Hector Franz\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512"
+    "C:\\Users\\Hector Franz\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Hector Franz\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\Hector Franz\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

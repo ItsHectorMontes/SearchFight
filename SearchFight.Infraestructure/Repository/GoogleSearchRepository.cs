@@ -44,21 +44,19 @@ namespace SearchFight.Infraestructure.Repository
                 throw new ArgumentException($"The object {nameof(term)} is null or empty.");
             }
             var baseAddress = $"{_googleConfig.Url}?key={_googleConfig.ApiKey}&cx={_googleConfig.Cx}&q={Uri.EscapeDataString(term)}";
-            using (var client = new HttpClient())
-            {
-                client.DefaultRequestHeaders.Clear();
-                var response = await client.GetAsync(baseAddress);
-                if (!response.IsSuccessStatusCode)
-                    throw new Exception("Unable to process request. Please try again.");
+            using var client = new HttpClient();
+            client.DefaultRequestHeaders.Clear();
+            var response = await client.GetAsync(baseAddress);
+            if (!response.IsSuccessStatusCode)
+                throw new Exception("Unable to process request google fails. Please try again.");
 
-                var stringResponse = await response.Content.ReadAsStringAsync();
-                var options = new JsonSerializerOptions
-                {
-                    PropertyNameCaseInsensitive = true,
-                };
-                var result = JsonSerializer.Deserialize<GoogleResponse>(stringResponse, options);
-                return long.Parse(result.SearchInformation.TotalResults);
-            }
+            var stringResponse = await response.Content.ReadAsStringAsync();
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+            };
+            var result = JsonSerializer.Deserialize<GoogleResponse>(stringResponse, options);
+            return long.Parse(result.SearchInformation.TotalResults);
         }
     }
 }

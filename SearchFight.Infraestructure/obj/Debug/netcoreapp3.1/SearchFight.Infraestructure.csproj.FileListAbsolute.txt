@@ -10,3 +10,15 @@ D:\Desarrollo\SearchFight\SearchFight.Infraestructure\obj\Debug\netcoreapp3.1\Se
 D:\Desarrollo\SearchFight\SearchFight.Infraestructure\obj\Debug\netcoreapp3.1\SearchFight.Infraestructure.csproj.CopyComplete
 D:\Desarrollo\SearchFight\SearchFight.Infraestructure\obj\Debug\netcoreapp3.1\SearchFight.Infraestructure.dll
 D:\Desarrollo\SearchFight\SearchFight.Infraestructure\obj\Debug\netcoreapp3.1\SearchFight.Infraestructure.pdb
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\bin\Debug\netcoreapp3.1\SearchFight.Infraestructure.deps.json
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\bin\Debug\netcoreapp3.1\SearchFight.Infraestructure.dll
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\bin\Debug\netcoreapp3.1\SearchFight.Infraestructure.pdb
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\bin\Debug\netcoreapp3.1\SearchFight.App.Core.dll
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\bin\Debug\netcoreapp3.1\SearchFight.App.Core.pdb
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\obj\Debug\netcoreapp3.1\SearchFight.Infraestructure.csprojAssemblyReference.cache
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\obj\Debug\netcoreapp3.1\SearchFight.Infraestructure.AssemblyInfoInputs.cache
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\obj\Debug\netcoreapp3.1\SearchFight.Infraestructure.AssemblyInfo.cs
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\obj\Debug\netcoreapp3.1\SearchFight.Infraestructure.csproj.CoreCompileInputs.cache
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\obj\Debug\netcoreapp3.1\SearchFight.Infraestructure.csproj.CopyComplete
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\obj\Debug\netcoreapp3.1\SearchFight.Infraestructure.dll
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\obj\Debug\netcoreapp3.1\SearchFight.Infraestructure.pdb

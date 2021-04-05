@@ -26,7 +26,7 @@ namespace SearchFight.App.Core.Services
             _winnerService = winnerService;
         }
         /// <summary>
-        /// Get search fight report
+        /// Get search fight report.
         /// </summary>
         /// <param name="args"></param>
         /// <returns><see cref="SearchReport"/></returns>

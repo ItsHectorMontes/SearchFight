@@ -45,28 +45,27 @@ namespace SearchFight.Infraestructure.Repository
                 throw new ArgumentException($"The object {nameof(term)} is null or empty.");
             }
             var baseAddress = $"{_bingConfig.Url}?q={Uri.EscapeDataString(term)}";
-            using (var client = new HttpClient())
-            {
-                client.DefaultRequestHeaders.Clear();
-                client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", _bingConfig.ApiKey);
-                var response = await client.GetAsync(baseAddress);
-                if (!response.IsSuccessStatusCode)
-                    throw new Exception("Unable to process request. Please try again.");
-                var stringResponse = await response.Content.ReadAsStringAsync();
-                var options = new JsonSerializerOptions
-                {
-                    PropertyNameCaseInsensitive = true,
-                };
-                try
-                {
-                    var result = JsonSerializer.Deserialize<BingResponse>(stringResponse, options);
-                    return result.WebPages.TotalEstimatedMatches;
-                }
-                catch (Exception ex)
-                {
 
-                    throw new Exception(ex.Message);
-                }
+            using var client = new HttpClient();
+
+            client.DefaultRequestHeaders.Clear();
+            client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", _bingConfig.ApiKey);
+            var response = await client.GetAsync(baseAddress);
+            if (!response.IsSuccessStatusCode)
+                throw new Exception("Unable to process request bing fails. Please try again.");
+            var stringResponse = await response.Content.ReadAsStringAsync();
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+            };
+            try
+            {
+                var result = JsonSerializer.Deserialize<BingResponse>(stringResponse, options);
+                return result.WebPages.TotalEstimatedMatches;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
             }
         }
     }
