@@ -1,8 +1,8 @@
-﻿using SearchFight.App.Core.Models;
+﻿using SearchFight.Application.Core.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace SearchFight.App.Core.Interfaces
+namespace SearchFight.Application.Core.Interfaces
 {
     /// <summary>
     /// Report Service Interface

@@ -1,5 +1,5 @@
-﻿using SearchFight.App.Core.Interfaces;
-using SearchFight.App.Core.Models;
+﻿using SearchFight.Application.Core.Interfaces;
+using SearchFight.Application.Core.Models;
 using SearchFight.ConsoleUI.Helper;
 using System;
 using System.Collections.Generic;
@@ -74,7 +74,7 @@ namespace SearchFight.ConsoleUI
         /// Print search results
         /// </summary>
         /// <param name="searchResults"></param>
-        private void PrintSearchResults(List<Search> searchResults)
+        private static void PrintSearchResults(List<Search> searchResults)
         {
             var resultString = searchResults.GroupBy(x => x.Term)
                 .Select(y => $"{y.Key}: {string.Join(" ", y.Select(y => $"{y.SearchEngine}: {y.TotalResults}"))}");
@@ -84,17 +84,16 @@ namespace SearchFight.ConsoleUI
         /// Print winner by search engine
         /// </summary>
         /// <param name="winners"></param>
-        private void PrintWinnersBySearchengine(List<Search> winners)
+        private static void PrintWinnersBySearchengine(List<Search> winners)
         {
             var resultString = winners.Select(x => $"{x.SearchEngine} winner: {x.Term}");
             resultString.ToList().ForEach(x => Console.WriteLine(x));
         }
-
         /// <summary>
         /// Print total winnner
         /// </summary>
         /// <param name="totalWinner"></param>
-        private void PrintToltalWinner(string totalWinner)
+        private static void PrintToltalWinner(string totalWinner)
         {
             Console.WriteLine($"Total winner: {totalWinner}");
         }

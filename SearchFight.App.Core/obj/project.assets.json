@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.App.Core.csproj",
-      "projectName": "SearchFight.App.Core",
-      "projectPath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.App.Core.csproj",
+      "projectUniqueName": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.Application.Core.csproj",
+      "projectName": "SearchFight.Application.Core",
+      "projectPath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.Application.Core.csproj",
       "packagesPath": "C:\\Users\\Hector Franz\\.nuget\\packages\\",
       "outputPath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\obj\\",
       "projectStyle": "PackageReference",

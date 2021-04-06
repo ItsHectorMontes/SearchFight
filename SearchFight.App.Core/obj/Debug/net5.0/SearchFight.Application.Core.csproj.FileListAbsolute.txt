@@ -1,0 +1,11 @@
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.App.Core\bin\Debug\net5.0\SearchFight.Application.Core.deps.json
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.App.Core\bin\Debug\net5.0\SearchFight.Application.Core.dll
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.App.Core\bin\Debug\net5.0\ref\SearchFight.Application.Core.dll
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.App.Core\bin\Debug\net5.0\SearchFight.Application.Core.pdb
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.App.Core\obj\Debug\net5.0\SearchFight.Application.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.App.Core\obj\Debug\net5.0\SearchFight.Application.Core.AssemblyInfoInputs.cache
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.App.Core\obj\Debug\net5.0\SearchFight.Application.Core.AssemblyInfo.cs
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.App.Core\obj\Debug\net5.0\SearchFight.Application.Core.csproj.CoreCompileInputs.cache
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.App.Core\obj\Debug\net5.0\SearchFight.Application.Core.dll
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.App.Core\obj\Debug\net5.0\ref\SearchFight.Application.Core.dll
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.App.Core\obj\Debug\net5.0\SearchFight.Application.Core.pdb

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchFight.App.Core", "SearchFight.App.Core\SearchFight.App.Core.csproj", "{04B39989-5F1F-4FEA-81AA-88E5E6AEF003}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchFight.Application.Core", "SearchFight.App.Core\SearchFight.Application.Core.csproj", "{04B39989-5F1F-4FEA-81AA-88E5E6AEF003}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchFight.Infraestructure", "SearchFight.Infraestructure\SearchFight.Infraestructure.csproj", "{8688566E-A171-4294-89B3-FAE3AFA52F72}"
 EndProject
@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{9928CF4F-3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{11DE48DA-0368-44C5-B44D-5ABA1775BC7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchFight.ConsoleUI", "SearchFight.ConsoleUI\SearchFight.ConsoleUI.csproj", "{0B63084B-84FF-4490-AE53-C8A8470269B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchFight.ConsoleUI", "SearchFight.ConsoleUI\SearchFight.ConsoleUI.csproj", "{0B63084B-84FF-4490-AE53-C8A8470269B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

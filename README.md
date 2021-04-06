@@ -28,10 +28,10 @@ To determine the popularity of programming languages on the internet we want to 
 - Docker.
 
 ## Principles 
-- SOLID
+- SOLID.
 
 ## Architecture
-- Clean Architecture
+- Domain Driven Design.
 
 
 

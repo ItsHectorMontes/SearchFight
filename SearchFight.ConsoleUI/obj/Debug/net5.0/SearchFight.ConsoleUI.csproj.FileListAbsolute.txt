@@ -25,7 +25,6 @@ D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\bin\Debug\net5.0\Mic
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\bin\Debug\net5.0\System.Diagnostics.EventLog.dll
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
-D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\bin\Debug\net5.0\SearchFight.App.Core.dll
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\bin\Debug\net5.0\SearchFight.Infraestructure.dll
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\obj\Debug\net5.0\SearchFight.ConsoleUI.GeneratedMSBuildEditorConfig.editorconfig
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\obj\Debug\net5.0\SearchFight.ConsoleUI.AssemblyInfoInputs.cache
@@ -38,7 +37,6 @@ D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\bin\Debug\net5.0\Sea
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\bin\Debug\net5.0\SearchFight.ConsoleUI.dll
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\bin\Debug\net5.0\ref\SearchFight.ConsoleUI.dll
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\bin\Debug\net5.0\SearchFight.ConsoleUI.pdb
-D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\bin\Debug\net5.0\SearchFight.App.Core.pdb
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\bin\Debug\net5.0\SearchFight.Infraestructure.pdb
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\obj\Debug\net5.0\SearchFight.ConsoleUI.csprojAssemblyReference.cache
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\obj\Debug\net5.0\SearchFight.ConsoleUI.csproj.CoreCompileInputs.cache
@@ -47,3 +45,5 @@ D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\obj\Debug\net5.0\Sea
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\obj\Debug\net5.0\ref\SearchFight.ConsoleUI.dll
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\obj\Debug\net5.0\SearchFight.ConsoleUI.pdb
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\obj\Debug\net5.0\SearchFight.ConsoleUI.genruntimeconfig.cache
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\bin\Debug\net5.0\SearchFight.Application.Core.dll
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.ConsoleUI\bin\Debug\net5.0\SearchFight.Application.Core.pdb

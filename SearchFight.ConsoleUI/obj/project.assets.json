@@ -455,14 +455,14 @@
           }
         }
       },
-      "SearchFight.App.Core/1.0.0": {
+      "SearchFight.Application.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/SearchFight.App.Core.dll": {}
+          "bin/placeholder/SearchFight.Application.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SearchFight.App.Core.dll": {}
+          "bin/placeholder/SearchFight.Application.Core.dll": {}
         }
       },
       "SearchFight.Infraestructure/1.0.0": {
@@ -470,7 +470,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.Extensions.Options": "5.0.0",
-          "SearchFight.App.Core": "1.0.0"
+          "SearchFight.Application.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/SearchFight.Infraestructure.dll": {}
@@ -1273,10 +1273,10 @@
         "version.txt"
       ]
     },
-    "SearchFight.App.Core/1.0.0": {
+    "SearchFight.Application.Core/1.0.0": {
       "type": "project",
-      "path": "../SearchFight.App.Core/SearchFight.App.Core.csproj",
-      "msbuildProject": "../SearchFight.App.Core/SearchFight.App.Core.csproj"
+      "path": "../SearchFight.App.Core/SearchFight.Application.Core.csproj",
+      "msbuildProject": "../SearchFight.App.Core/SearchFight.Application.Core.csproj"
     },
     "SearchFight.Infraestructure/1.0.0": {
       "type": "project",
@@ -1289,7 +1289,7 @@
       "Microsoft.Extensions.Configuration >= 5.0.0",
       "Microsoft.Extensions.Hosting >= 5.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.13",
-      "SearchFight.App.Core >= 1.0.0",
+      "SearchFight.Application.Core >= 1.0.0",
       "SearchFight.Infraestructure >= 1.0.0"
     ]
   },
@@ -1324,8 +1324,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.App.Core.csproj": {
-              "projectPath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.App.Core.csproj"
+            "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.Application.Core.csproj": {
+              "projectPath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.Application.Core.csproj"
             },
             "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.Infraestructure\\SearchFight.Infraestructure.csproj": {
               "projectPath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.Infraestructure\\SearchFight.Infraestructure.csproj"

@@ -2276,14 +2276,14 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "SearchFight.App.Core/1.0.0": {
+      "SearchFight.Application.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/SearchFight.App.Core.dll": {}
+          "bin/placeholder/SearchFight.Application.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SearchFight.App.Core.dll": {}
+          "bin/placeholder/SearchFight.Application.Core.dll": {}
         }
       },
       "SearchFight.ConsoleUI/1.0.0": {
@@ -2293,7 +2293,7 @@
           "Microsoft.Extensions.Configuration": "5.0.0",
           "Microsoft.Extensions.Hosting": "5.0.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.13",
-          "SearchFight.App.Core": "1.0.0",
+          "SearchFight.Application.Core": "1.0.0",
           "SearchFight.Infraestructure": "1.0.0"
         },
         "compile": {
@@ -2308,7 +2308,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.Extensions.Options": "5.0.0",
-          "SearchFight.App.Core": "1.0.0"
+          "SearchFight.Application.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/SearchFight.Infraestructure.dll": {}
@@ -7701,10 +7701,10 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "SearchFight.App.Core/1.0.0": {
+    "SearchFight.Application.Core/1.0.0": {
       "type": "project",
-      "path": "../../SearchFight.App.Core/SearchFight.App.Core.csproj",
-      "msbuildProject": "../../SearchFight.App.Core/SearchFight.App.Core.csproj"
+      "path": "../../SearchFight.App.Core/SearchFight.Application.Core.csproj",
+      "msbuildProject": "../../SearchFight.App.Core/SearchFight.Application.Core.csproj"
     },
     "SearchFight.ConsoleUI/1.0.0": {
       "type": "project",

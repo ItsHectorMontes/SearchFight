@@ -1,11 +1,11 @@
-﻿using SearchFight.App.Core.Interfaces;
-using SearchFight.App.Core.Models;
+﻿using SearchFight.Application.Core.Interfaces;
+using SearchFight.Application.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
 
-namespace SearchFight.App.Core.Services
+namespace SearchFight.Application.Core.Services
 {
     /// <summary>
     /// <see cref="IReportService"/> implementation. Service to get search fight result

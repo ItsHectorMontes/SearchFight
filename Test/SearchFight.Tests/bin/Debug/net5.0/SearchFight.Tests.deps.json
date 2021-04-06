@@ -1561,9 +1561,9 @@
         }
       },
       "xunit.runner.visualstudio/2.4.3": {},
-      "SearchFight.App.Core/1.0.0": {
+      "SearchFight.Application.Core/1.0.0": {
         "runtime": {
-          "SearchFight.App.Core.dll": {}
+          "SearchFight.Application.Core.dll": {}
         }
       },
       "SearchFight.ConsoleUI/1.0.0": {
@@ -1571,7 +1571,7 @@
           "Microsoft.Extensions.Configuration": "5.0.0",
           "Microsoft.Extensions.Hosting": "5.0.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.13",
-          "SearchFight.App.Core": "1.0.0",
+          "SearchFight.Application.Core": "1.0.0",
           "SearchFight.Infraestructure": "1.0.0"
         },
         "runtime": {
@@ -1581,7 +1581,7 @@
       "SearchFight.Infraestructure/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Options": "5.0.0",
-          "SearchFight.App.Core": "1.0.0"
+          "SearchFight.Application.Core": "1.0.0"
         },
         "runtime": {
           "SearchFight.Infraestructure.dll": {}
@@ -2512,7 +2512,7 @@
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
     },
-    "SearchFight.App.Core/1.0.0": {
+    "SearchFight.Application.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using SearchFight.App.Core.Interfaces;
-using SearchFight.App.Core.Services;
+using SearchFight.Application.Core.Interfaces;
+using SearchFight.Application.Core.Services;
 using SearchFight.Infraestructure.Models.Config;
 using SearchFight.Infraestructure.Repository;
 

@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace SearchFight.App.Core.Interfaces
+namespace SearchFight.Application.Core.Interfaces
 {
     /// <summary>
     /// Search engine repository interface

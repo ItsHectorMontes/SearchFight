@@ -1,8 +1,8 @@
-﻿using SearchFight.App.Core.Models;
+﻿using SearchFight.Application.Core.Models;
 using System.Collections.Generic;
 
 
-namespace SearchFight.App.Core.Interfaces
+namespace SearchFight.Application.Core.Interfaces
 {
     /// <summary>
     /// Winner service interface

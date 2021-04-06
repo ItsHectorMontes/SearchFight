@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SearchFight.App.Core.Models
+namespace SearchFight.Application.Core.Models
 {
     /// <summary>
     /// Class that contains all search results

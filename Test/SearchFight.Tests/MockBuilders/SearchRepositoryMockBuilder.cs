@@ -1,7 +1,7 @@
 ﻿using Moq;
 using System;
 using System.Threading.Tasks;
-using SearchFight.App.Core.Interfaces;
+using SearchFight.Application.Core.Interfaces;
 
 namespace SearchFight.Tests.MockBuilders
 {

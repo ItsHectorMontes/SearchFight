@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿        <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
 	  <TargetFramework>net5.0</TargetFramework>
@@ -9,7 +9,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SearchFight.App.Core\SearchFight.App.Core.csproj" />
+    <ProjectReference Include="..\SearchFight.App.Core\SearchFight.Application.Core.csproj" />
   </ItemGroup>
+
+ 
 
 </Project>

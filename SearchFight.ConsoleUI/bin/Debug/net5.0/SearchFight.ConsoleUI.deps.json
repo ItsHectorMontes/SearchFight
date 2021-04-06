@@ -11,7 +11,7 @@
           "Microsoft.Extensions.Configuration": "5.0.0",
           "Microsoft.Extensions.Hosting": "5.0.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.13",
-          "SearchFight.App.Core": "1.0.0",
+          "SearchFight.Application.Core": "1.0.0",
           "SearchFight.Infraestructure": "1.0.0"
         },
         "runtime": {
@@ -385,15 +385,15 @@
         }
       },
       "System.Security.Principal.Windows/5.0.0": {},
-      "SearchFight.App.Core/1.0.0": {
+      "SearchFight.Application.Core/1.0.0": {
         "runtime": {
-          "SearchFight.App.Core.dll": {}
+          "SearchFight.Application.Core.dll": {}
         }
       },
       "SearchFight.Infraestructure/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Options": "5.0.0",
-          "SearchFight.App.Core": "1.0.0"
+          "SearchFight.Application.Core": "1.0.0"
         },
         "runtime": {
           "SearchFight.Infraestructure.dll": {}
@@ -624,7 +624,7 @@
       "path": "system.security.principal.windows/5.0.0",
       "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
     },
-    "SearchFight.App.Core/1.0.0": {
+    "SearchFight.Application.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

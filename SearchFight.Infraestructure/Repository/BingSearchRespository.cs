@@ -5,7 +5,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using SearchFight.Infraestructure.Models.Bing;
 using SearchFight.Infraestructure.Models.Config;
-using SearchFight.App.Core.Interfaces;
+using SearchFight.Application.Core.Interfaces;
 
 namespace SearchFight.Infraestructure.Repository
 {
@@ -52,7 +52,7 @@ namespace SearchFight.Infraestructure.Repository
             client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", _bingConfig.ApiKey);
             var response = await client.GetAsync(baseAddress);
             if (!response.IsSuccessStatusCode)
-                throw new Exception("Unable to process request bing fails. Please try again.");
+                throw new Exception("Unable to process request from bing fails. Please try again.");
             var stringResponse = await response.Content.ReadAsStringAsync();
             var options = new JsonSerializerOptions
             {

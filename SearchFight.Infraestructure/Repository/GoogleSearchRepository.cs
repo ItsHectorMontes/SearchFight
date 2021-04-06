@@ -3,7 +3,7 @@ using System;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
-using SearchFight.App.Core.Interfaces;
+using SearchFight.Application.Core.Interfaces;
 using SearchFight.Infraestructure.Models.Config;
 using SearchFight.Infraestructure.Models.Google;
 
@@ -48,7 +48,7 @@ namespace SearchFight.Infraestructure.Repository
             client.DefaultRequestHeaders.Clear();
             var response = await client.GetAsync(baseAddress);
             if (!response.IsSuccessStatusCode)
-                throw new Exception("Unable to process request google fails. Please try again.");
+                throw new Exception("Unable to process request from google fails. Please try again.");
 
             var stringResponse = await response.Content.ReadAsStringAsync();
             var options = new JsonSerializerOptions

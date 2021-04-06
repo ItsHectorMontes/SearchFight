@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s7wtoKCqOgT0kl5Y7sl8iCINSO6L9TfEoiQBCBs1Lxprbig/7U2FM/0A8QrflD5n4m6SifHtX5FtX2c5uHCn6g==",
+  "dgSpecHash": "FQat/OayHfFgxC88FDrCLW5YM4EnfNbmF+1fLBYEnFg7hb8fRpT+rZ/iezLzzMJKbPADcQ5Fru93H4eUs1ttPw==",
   "success": true,
-  "projectFilePath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.App.Core.csproj",
+  "projectFilePath": "D:\\Desarrollo\\SearchFight\\SearchFight\\SearchFight.App.Core\\SearchFight.Application.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

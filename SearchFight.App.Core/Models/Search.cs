@@ -1,4 +1,4 @@
-﻿namespace SearchFight.App.Core.Models
+﻿namespace SearchFight.Application.Core.Models
 {
     /// <summary>
     /// Search result cla

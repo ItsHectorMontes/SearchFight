@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using SearchFight.App.Core.Interfaces;
-using SearchFight.App.Core.Services;
+using SearchFight.Application.Core.Interfaces;
+using SearchFight.Application.Core.Services;
 using SearchFight.Tests.MockBuilders;
 using Xunit;
 

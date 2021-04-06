@@ -2,8 +2,6 @@ D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\bin\Debug\net5
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\bin\Debug\net5.0\SearchFight.Infraestructure.dll
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\bin\Debug\net5.0\ref\SearchFight.Infraestructure.dll
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\bin\Debug\net5.0\SearchFight.Infraestructure.pdb
-D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\bin\Debug\net5.0\SearchFight.App.Core.dll
-D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\bin\Debug\net5.0\SearchFight.App.Core.pdb
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\obj\Debug\net5.0\SearchFight.Infraestructure.csprojAssemblyReference.cache
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\obj\Debug\net5.0\SearchFight.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\obj\Debug\net5.0\SearchFight.Infraestructure.AssemblyInfoInputs.cache
@@ -13,3 +11,5 @@ D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\obj\Debug\net5
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\obj\Debug\net5.0\SearchFight.Infraestructure.dll
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\obj\Debug\net5.0\ref\SearchFight.Infraestructure.dll
 D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\obj\Debug\net5.0\SearchFight.Infraestructure.pdb
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\bin\Debug\net5.0\SearchFight.Application.Core.dll
+D:\Desarrollo\SearchFight\SearchFight\SearchFight.Infraestructure\bin\Debug\net5.0\SearchFight.Application.Core.pdb

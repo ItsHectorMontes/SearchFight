@@ -5,7 +5,7 @@ FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
 COPY ["SearchFight.ConsoleUI/SearchFight.ConsoleUI.csproj", "SearchFight.ConsoleUI/"]
 COPY ["SearchFight.Infraestructure/SearchFight.Infraestructure.csproj", "SearchFight.Infraestructure/"]
-COPY ["SearchFight.App.Core/SearchFight.App.Core.csproj", "SearchFight.App.Core/"]
+COPY ["SearchFight.Application.Core/SearchFight.Application.Core.csproj", "SearchFight.Application.Core/"]
 RUN dotnet restore "SearchFight.ConsoleUI/SearchFight.ConsoleUI.csproj"
 COPY . .
 WORKDIR "/src/SearchFight.ConsoleUI"

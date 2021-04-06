@@ -13,9 +13,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SearchFight.App.Core\SearchFight.App.Core.csproj" />
+    <ProjectReference Include="..\SearchFight.App.Core\SearchFight.Application.Core.csproj" />
     <ProjectReference Include="..\SearchFight.Infraestructure\SearchFight.Infraestructure.csproj" />
   </ItemGroup>
+
+
 	<ItemGroup>
 		<None Update="appsettings.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
